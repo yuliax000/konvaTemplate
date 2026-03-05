@@ -1,12 +1,10 @@
-body {
-  background-color: lightslategray;
-  color: white;
-    margin: 0 auto;
-
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-
-section {
-    margin: 0 auto;
-
+.stageContainer {
+  background-color: coral;
+  flex: 1;
 }
